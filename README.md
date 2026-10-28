@@ -1,6 +1,9 @@
 # Convolutional VAE for Chest X-Ray Medical Image Generation
 
 A PyTorch implementation of a Convolutional Variational Autoencoder (Conv-VAE) trained on the Kaggle [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) dataset. Includes on-demand dataset caching, AdamW optimization with Warmup Cosine learning rate scheduling, TensorBoard visualization, model checkpointing, and evaluation using Fréchet Inception Distance (FID) and Inception Score (IS).
+<p align="center">
+  <img width="350" height="350" alt="generated_samples_for_report" src="https://github.com/user-attachments/assets/d3ee33a8-411d-441f-bbc8-258c340e8d77" />
+</p>
 
 ---
 
