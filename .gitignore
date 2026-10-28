@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+
+# Data & Datasets
+data/
+*.zip
+*.tar.gz
+
+# Model checkpoints & outputs
+checkpoints/
+outputs/
+runs/
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
