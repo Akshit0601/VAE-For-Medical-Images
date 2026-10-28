@@ -29,13 +29,6 @@ A PyTorch implementation of a Convolutional Variational Autoencoder (Conv-VAE) t
 3. **Configure Kaggle Credentials** *(Required for automatic dataset download)*:
    ```bash
    kaggle auth login
-   # OR place your kaggle.json in ~/.kaggle/kaggle.json and protect permissions:
-   chmod 600 ~/.kaggle/kaggle.json
-   ```
-
-4. **Verify Environment**:
-   ```bash
-   python verify_env.py
    ```
 
 ---
