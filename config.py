@@ -18,8 +18,8 @@ class VAEConfig:
     latent_dim: int = 1024
 
     # --- Training Hyperparameters ---
-    batch_size: int = 8
-    num_epochs: int = 40
+    batch_size: int = 16
+    num_epochs: int = 80       # Increased to 80 epochs (~26,080 steps)
     warmup_epochs: int = 5
     base_lr: float = 5e-4
     min_lr: float = 1e-6
@@ -27,8 +27,8 @@ class VAEConfig:
     kld_weight: float = 0.00025  # normalized beta weight
 
     # --- Logging & Checkpoints ---
-    log_dir: str = "runs/chest_xray_vae"
-    checkpoint_dir: str = "checkpoints"
+    log_dir: str = "runs/chest_xray_vae/batch_16"
+    checkpoint_dir: str = "checkpoints/batch_16"
     sample_interval_epochs: int = 2
     save_best_only: bool = True
 

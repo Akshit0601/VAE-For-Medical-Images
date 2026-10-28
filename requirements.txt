@@ -11,3 +11,4 @@ pillow
 tqdm
 scikit-learn
 scipy
+pytorch-ignite
